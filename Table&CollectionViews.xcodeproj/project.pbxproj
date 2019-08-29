@@ -17,6 +17,7 @@
 		991DAF8623142AE000083FE8 /* LKCharacter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991DAF8523142AE000083FE8 /* LKCharacter.swift */; };
 		991DAF8923142B9400083FE8 /* LKCharacterViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991DAF8823142B9400083FE8 /* LKCharacterViewModel.swift */; };
 		991DAF8E2314366C00083FE8 /* LKTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 991DAF8D2314366C00083FE8 /* LKTableViewController.swift */; };
+		99275816231811EE00A3EE98 /* LKDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 99275815231811EE00A3EE98 /* LKDetailViewController.swift */; };
 		992A389C23156BDF00D3F667 /* LKCharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A389B23156BDF00D3F667 /* LKCharacterTableViewController.swift */; };
 		992A389D23156BDF00D3F667 /* LKCharacterTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 992A389B23156BDF00D3F667 /* LKCharacterTableViewController.swift */; };
 /* End PBXBuildFile section */
@@ -55,6 +56,7 @@
 		991DAF8523142AE000083FE8 /* LKCharacter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKCharacter.swift; sourceTree = "<group>"; };
 		991DAF8823142B9400083FE8 /* LKCharacterViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKCharacterViewModel.swift; sourceTree = "<group>"; };
 		991DAF8D2314366C00083FE8 /* LKTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LKTableViewController.swift; path = ../Controller/LKTableViewController.swift; sourceTree = "<group>"; };
+		99275815231811EE00A3EE98 /* LKDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKDetailViewController.swift; sourceTree = "<group>"; };
 		992A389B23156BDF00D3F667 /* LKCharacterTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LKCharacterTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -166,6 +168,7 @@
 			children = (
 				991DAF8D2314366C00083FE8 /* LKTableViewController.swift */,
 				991DAF8823142B9400083FE8 /* LKCharacterViewModel.swift */,
+				99275815231811EE00A3EE98 /* LKDetailViewController.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -303,6 +306,7 @@
 			files = (
 				991DAF8923142B9400083FE8 /* LKCharacterViewModel.swift in Sources */,
 				991DAF8E2314366C00083FE8 /* LKTableViewController.swift in Sources */,
+				99275816231811EE00A3EE98 /* LKDetailViewController.swift in Sources */,
 				992A389C23156BDF00D3F667 /* LKCharacterTableViewController.swift in Sources */,
 				991DAF8623142AE000083FE8 /* LKCharacter.swift in Sources */,
 				991DAF1C2314237C00083FE8 /* Table_CollectionViews.xcdatamodeld in Sources */,

@@ -74,6 +74,15 @@ class LKTableViewController: UITableViewController {
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        // find out what is the row
+        guard let selectedRow = self.tableView.indexPathForSelectedRow else {return}
+        //n set the informtation to where are you going
+        let destination = segue.destination as? LKDetailViewController
+        // have access to selectedCharacter in LKDetailViewController
+        
+        let selectedCharacter = viewModel.getCharacter(byIndex: selectedRow.row)
+        destination?.selectedCharacter = selectedCharacter
+        
     }
     
 

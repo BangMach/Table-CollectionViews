@@ -9,7 +9,7 @@
 import UIKit
 
 class LKTableViewController: UITableViewController {
-    // in controller we need connection to viewMODEL
+    // in controller we need connection to viewMODEL/Users/jasonmach/Library/Autosave Information/Table&CollectionViews/Table&CollectionViews/Controller/LKTableViewController.swift
     private let viewModel = LKCharacterViewModel()
     
     override func viewDidLoad() {
